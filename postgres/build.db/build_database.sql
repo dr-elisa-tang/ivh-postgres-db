@@ -47,7 +47,7 @@ CREATE TABLE ivh.goal_type (
 
 CREATE TABLE ivh.rating (
     rating_id serial PRIMARY KEY,
-    rating_code integer NOT NULL,
+    rating_code text NOT NULL,
     rating_type text NOT NULL,
     rating text NOT NULL
 );

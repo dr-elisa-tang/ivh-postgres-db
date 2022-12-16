@@ -105,7 +105,7 @@ BEGIN;
                 and year = 2020)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Client Quality Assurance')
             , 'Support research and development efforts.'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 3));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '3'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -114,7 +114,7 @@ BEGIN;
                 and year = 2020)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Professional Development')
             , 'PHP Direct System and React RDC Challenge'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 4));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '4'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -123,7 +123,7 @@ BEGIN;
                 and year = 2020)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Internal Operations Support')
             , 'Participated in the RDC challenge to pusue a potential contract'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 3));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '3'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -132,7 +132,7 @@ BEGIN;
                 and year = 2021)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Client Quality Assurance')
             , 'Support and provide assurance, reliability, availability, and contribute to overall success'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 3));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '3'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -141,7 +141,7 @@ BEGIN;
                 and year = 2021)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Professional Development')
             , 'Pega COVID Workflow'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 2));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '2'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -150,7 +150,7 @@ BEGIN;
                 and year = 2021)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Internal Operations Support')
             , 'Particiapated in Pega platform challenge to pusue potential contract'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 5));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '5'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -159,7 +159,7 @@ BEGIN;
                 and year = 2022)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Client Quality Assurance')
             , 'Support multiple projects across the CCDSO contract as a shared resource between product teams'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 4));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '4'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -168,7 +168,7 @@ BEGIN;
                 and year = 2022)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Professional Development')
             , 'DevOps - GitHub Actions, Fortify, Docker and Development - Spring Boot and Maven'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 3));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '3'));
 
     INSERT INTO ivh.goal (employee_id, appraisal_id, goal_type_id, goal, rating_id)
     VALUES ((select employee_id from ivh.employee where last_name = 'Tang')
@@ -177,7 +177,7 @@ BEGIN;
                 and year = 2022)
             , (select goal_type_id from ivh.goal_type where goal_type = 'Internal Operations Support')
             , 'Initiate internal InnoVet Web App to supoprt administrative and HR processes'
-            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = 5));
+            , (select rating_id from ivh.rating where rating_type = 'Appraisal' and rating_code = '5'));
 
     COMMIT;
 

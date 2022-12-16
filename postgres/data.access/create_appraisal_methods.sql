@@ -37,7 +37,7 @@ create or replace function ivh.get_goals_by_appraisal_id(appraisalId int)
     , goals_id int
     , goal_type text
     , goal text
-    , rating_code int
+    , rating_code text
     , rating text) 
     language plpgsql as $$
     begin
